@@ -11,7 +11,7 @@ from PIL import Image, ImageDraw, ImageFont
 W, H = 1050, 600
 M = 58
 INK, PAPER = 0, 255
-OUT = '/home/jar/.hermes/state/money/lot1510'
+OUT = os.path.dirname(os.path.abspath(__file__))
 
 NB = '/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Bold.ttf'
 SB = '/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf'
